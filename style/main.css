@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#background {
+  position: relative;
+  background-image: url('../img/back.jpg');
+  background-size: cover;
+  background-position: center;
+}
