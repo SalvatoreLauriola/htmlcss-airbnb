@@ -3,32 +3,40 @@
   box-sizing: border-box;
 }
 
-#background {
+.background {
   position: relative;
   background-image: url('../img/back.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
-  margin: bottom;
 }
 
-
-#quad {
-  position:absolute;
+.quad {
   width: 350px;
   height: 200px;
-  background-image: url('../img/prague.jpg');
   margin-top: 20px;
   margin-left: 20px;
   background-size: cover;
+  position: relative;
 }
 
-#txt {
+.prague {
+  background-image: url('../img/prague.jpg');
+}
+
+.istanbul {
+  background-image: url('../img/istanbul.jpg');
+}
+
+.milano {
+ background-image: url('../img/milano.jpg');
+}
+
+
+.txt {
   position: absolute;
   left: 50%;
   top: 50%;
   color: white;
   transform: translate(-50%, -50%);
-
-
 }
