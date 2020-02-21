@@ -8,4 +8,27 @@
   background-image: url('../img/back.jpg');
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  margin: bottom;
+}
+
+
+#quad {
+  position:absolute;
+  width: 350px;
+  height: 200px;
+  background-image: url('../img/prague.jpg');
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: cover;
+}
+
+#txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+
+
 }
