@@ -14,10 +14,12 @@
 .quad {
   width: 350px;
   height: 200px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 200px;
   background-size: cover;
   position: relative;
+  border: solid;
+  border-color: white;
+  border-width: 5px;
 }
 
 .prague {
@@ -32,11 +34,11 @@
  background-image: url('../img/milano.jpg');
 }
 
-
 .txt {
   position: absolute;
   left: 50%;
   top: 50%;
   color: white;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 1px white;
 }
