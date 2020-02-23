@@ -2,15 +2,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* REGOLE DI LAYOUT PAGINA */
 .background {
   position: relative;
   background-image: url('../img/back.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding-top: 30px;
 }
-
+/* REGOLE DELL'IMMAGINE */
 .quad {
   width: 350px;
   height: 200px;
@@ -21,24 +22,27 @@
   border-color: white;
   border-width: 5px;
 }
-
+/* IMMAGINI DELLE CITTA' */
 .prague {
   background-image: url('../img/prague.jpg');
+  opacity: 0.9;
 }
 
 .istanbul {
   background-image: url('../img/istanbul.jpg');
+  opacity: 0.9;
 }
 
 .milano {
  background-image: url('../img/milano.jpg');
+ opacity: 0.9;
 }
-
+/* ATTRIBUTI DEL TESTO */
 .txt {
   position: absolute;
   left: 50%;
   top: 50%;
   color: white;
   transform: translate(-50%, -50%);
-  text-shadow: 2px 1px white;
+  text-shadow: 2px 1px black;
 }
